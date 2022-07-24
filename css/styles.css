@@ -245,6 +245,21 @@ figure> .team-images{
     background-color: #F5F4FA;
 }
 
+.features-icons {
+    background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
+.social-media {
+    display:flex;
+    flex-direction: row;
+}
+
+.clients {
+    display:flex;
+    flex-direction: row;
+}
 /* ---------MAIN portfolio ------- */
 
 .first-button:hover, .second-button:hover, .third-button:hover, .fourth-button:hover, .fifth-button:hover {
