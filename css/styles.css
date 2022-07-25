@@ -64,13 +64,20 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 }
 
-.header-mail:hover, .header-tel:hover {
+.contact-icons:hover {
     color: #2196F3;
+    fill: #2196F3;
 }
 
-.header-mail:focus, .header-tel:focus {
+.contact-icons:focus {
     color: #2196F3;
+    fill: #2196F3;
 }
+
+.contact-icons {
+fill:#757575;
+}
+
 
 h1 {
     font-weight: 900;
@@ -136,7 +143,7 @@ border-radius: 4px;
 }
 
 .header-contact >li {
-    display: inline-block;   
+    display: inline-block;
 }
 
 .header-contact:last-child >li {
@@ -157,6 +164,12 @@ background-position: 50% 50%;
 background-size: 1600px;
 }
 
+.contact-icons {
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
 /* ------- MAIN index ------- */
 
 .features-list {
@@ -184,6 +197,7 @@ font-size: 36px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 text-align: center;
+margin-bottom: 50px;
 }
 
 .name {
@@ -201,6 +215,7 @@ text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .features-list {
@@ -226,9 +241,9 @@ display:flex;
  margin-top: 50px;
 }
 
-.team-items > li {
+.team-items  > li{
     width: 270px;
-    height: 368px;
+    height: 428px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
@@ -246,20 +261,63 @@ figure> .team-images{
 }
 
 .features-icons {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
 border-radius: 4px;
 margin-bottom: 30px;
+width:270px;
+          height:120px;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+align-items: center;
 }
 
 .social-media {
     display:flex;
     flex-direction: row;
+    gap:10px;
+    justify-content: center;
+}
+.media-icons {
+    fill:#FFFFFF;
+}
+.media-icons:hover {
+    fill: #2196F3;
 }
 
 .clients {
     display:flex;
     flex-direction: row;
+    gap:30px;
 }
+.clients-icons {
+    border: 1px solid #AFB1B8;
+border-radius: 4px;
+width:170px;
+ height:92px;
+ display:flex;
+          align-items: center;
+          justify-content: center;
+          fill: #afb1b8;
+          cursor:pointer;
+}
+
+.clients-icons:hover {
+   fill:#2196F3;
+   border-color:#2196F3;
+}
+.clients-icons:focus {
+    fill:#2196F3;
+    border-color:#2196F3;
+ }
+
+
 /* ---------MAIN portfolio ------- */
 
 .first-button:hover, .second-button:hover, .third-button:hover, .fourth-button:hover, .fifth-button:hover {
@@ -456,3 +514,27 @@ footer {
     gap:9px;
 
 }
+.footer-media {
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 72px;
+
+}
+
+.footer-social-media {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap:20px;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    
+    gap:70px;
+} 

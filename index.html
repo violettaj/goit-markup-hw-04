@@ -23,8 +23,8 @@
           </ul>
         </nav>
         <ul class="header-contact">
-        <li><a href="mailto:info@devstudio.com" class="header-mail"><svg width="16px" height="12px"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com </a></li>
-      <li><a href="tel:+48111111111" class="header-tel"><svg width="10px" height="16px"><use href="./images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111</a></li>
+        <li><a href="mailto:info@devstudio.com" class="header-mail"><div class="contact-icons"><svg width="16px" height="12px"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</div></a></li>
+      <li><a href="tel:+48111111111" class="header-tel"><div class="contact-icons"><svg width="10px" height="16px"><use href="./images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111</div></a></li>
       </ul>
       </div>
     </div>
@@ -41,42 +41,46 @@
         <div class="container">
       <ul class="features-list">
         <li>
-          <svg class="features-icons" width="270px"
-          height="120">
-            <use height="70px"
-            width="70px"
+          <div class="features-icons">
+          <svg height="70px"
+          width="70px">
+            <use 
              href="./images/icons.svg#icon-antenna"></use>
           </svg>
+        </div>
         <h4 class="features-title">LOREM IPSUM</h4>
         <p class="features-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
           sem. Sed non sodales dui. Interdum et malesuada</p>
         </li>
         <li> 
-          <svg class="features-icons" width="270px"
-          height="120">
-            <use height="70px"
-            width="70px" href="./images/icons.svg#icon-clock"></use>
+          <div class="features-icons">
+          <svg width="70px"
+          height="70px">
+            <use href="./images/icons.svg#icon-clock"></use>
           </svg>  
+          </div>
         <h4 class="features-title">LOREM IPSUM</h4>
       <p class="features-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
           sem. Sed non sodales dui. Interdum et malesuada</p>
         </li>
         <li>
-          <svg class="features-icons" width="270px"
-          height="120">
-            <use height="70px"
-            width="70px" href="./images/icons.svg#icon-diagram"></use>
+          <div class="features-icons">
+          <svg width="70px"
+          height="70px">
+            <use href="./images/icons.svg#icon-diagram"></use>
           </svg>
+          </div>
         <h4 class="features-title">LOREM IPSUM</h4>
       <p class="features-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
           sem. Sed non sodales dui. Interdum et malesuada</p>
         </li>
         <li>
-          <svg class="features-icons" width="270px"
-          height="120">
-            <use height="70px"
-            width="70px" href="./images/icons.svg#icon-astronaut"></use>
+          <div class="features-icons">
+          <svg width="70px"
+          height="70px">
+            <use href="./images/icons.svg#icon-astronaut"></use>
           </svg>
+          </div>
         <h4 class="features-title">LOREM IPSUM</h4>
       <p class="features-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
           sem. Sed non sodales dui. Interdum et malesuada</p>
@@ -113,8 +117,8 @@
         okularach" width="270" height="260">
         <figcaption>
           <p class="name">John Doe</p>
-          <p class="profession">Product Designer</p>
-            <ul class="social-media">
+          <p class="profession">Product Designer</p> 
+          <ul class="social-media">
               <li>
                 <svg width="44px" height="44px">
                   <use href="./images/icons.svg#icon-instagram"></use>
@@ -213,7 +217,7 @@
             <ul class="social-media">
               <li>
                 <svg width="44px" height="44px">
-                  <use href="./images/icons.svg#icon-instagram"></use>
+                  <use class="media-icons" href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </li>
               <li>
@@ -242,33 +246,34 @@
     <div class="container">
       <h2 class="second-headers">Nasi klienci</h2>
       <ul class="clients">
-        <li>
-          <svg width="170px" height="92px">
+        <li class="clients-icons" >
+          <svg width="106px" height="60px">
             <use href="./images/icons.svg#icon-client1"></use>
           </svg>
         </li>
-        <li>
-          <svg width="170px" height="92px">
+        <li class="clients-icons">
+          <svg width="106px" height="60px">
           <use href="./images/icons.svg#icon-client2"></use>
         </svg>
       </li>
-        <li>
-          <svg width="170px" height="92px">
+        <li class="clients-icons">
+          <svg width="106px" height="60px">
           <use href="./images/icons.svg#icon-client3"></use>
         </svg>
       </li>
-        <li>
-          <svg width="170px" height="92px">
+        <li class="clients-icons">
+          <svg width="106px" height="60px">
           <use href="./images/icons.svg#icon-client4"></use>
         </svg>
       </li>
-      <li>
-        <svg width="170px" height="92px">
+      <li class="clients-icons">
+        <svg width="106px" height="60px">
         <use href="./images/icons.svg#icon-client5"></use>
       </svg>
-    </li><li>
-      <svg width="170px" height="92px">
-      <use href="./images/icons.svg#icon-client6"></use>
+    </li>
+    <li class="clients-icons">
+      <svg width="106px" height="60px">
+      <use  href="./images/icons.svg#icon-client6"></use>
     </svg>
   </li>
       </ul>
@@ -276,6 +281,7 @@
   </section>
     </main>
     <footer>
+      <div class="footer-block">
       <div class="footer-description">
       <div class="container">
       <a href="/" class="footer-logo"><span class="first-word">Web</span>Studio</a>
@@ -288,12 +294,12 @@
       </address>
     </div>
 </div>
-<div>
-  <p>Dołącz do nas</p>
+<div class="footer-social-media">
+  <p class="footer-media">Dołącz do nas</p>
   <ul class="social-media">
     <li>
       <svg width="44px" height="44px">
-        <use href="./images/icons.svg#icon-instagram"></use>
+        <use class="media-icons" href="./images/icons.svg#icon-instagram"></use>
       </svg>
     </li>
     <li>
@@ -312,6 +318,7 @@
     </svg>
   </li>
   </ul>
+</div>
 </div>
     </footer>
   </body>
