@@ -285,10 +285,25 @@ align-items: center;
     justify-content: center;
 }
 .media-icons {
-    fill:#FFFFFF;
+    background-color: #fff;
+border-radius: 50%;
+width: 44px;
+          height:40px;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          fill: #AFB1B8;
+          cursor:pointer;
 }
+
 .media-icons:hover {
-    fill: #2196F3;
+    fill: #fff;
+    background-color: #2196F3;  
+}
+
+.media-icons:focus {
+    fill: #fff;
+    background-color: #2196F3;   
 }
 
 .clients {
@@ -497,15 +512,16 @@ figure> .project-images {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    
     background-color: #2F303A;
 }
 
 .footer-description {
     padding-top:60px;
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer-contact {
@@ -535,6 +551,28 @@ gap:20px;
 .footer-block {
     display: flex;
     flex-direction: row;
-    
     gap:70px;
-} 
+    justify-content: flex-start;
+}
+
+.footer-media-icons {
+    background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+width: 44px;
+          height:40px;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          fill: #fff;
+          cursor:pointer;
+}
+
+.footer-media-icons:hover {
+    fill: #fff;
+    background-color: #2196F3;  
+}
+
+.footer-media-icons:focus {
+    fill: #fff;
+    background-color: #2196F3;   
+}
